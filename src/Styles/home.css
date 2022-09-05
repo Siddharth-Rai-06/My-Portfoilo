@@ -1,0 +1,17 @@
+.home-wrapper{
+    margin: auto;
+    width: 80%;
+    padding-top:30px ;
+    display: flex;
+    flex-direction:row ;
+}
+.intro-text{
+    width: 50%;
+}
+.intro-img{
+    width: 50%;
+}
+.intro-img img{
+    width: 450px;
+    height: 500px;
+}
