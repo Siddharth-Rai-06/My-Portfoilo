@@ -21,7 +21,7 @@ const Navbar = () => {
                     </Link>
 
                     <div className="myname">
-                        Siddharth Rai
+                        <p>Siddharth Rai</p>
                     </div>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
