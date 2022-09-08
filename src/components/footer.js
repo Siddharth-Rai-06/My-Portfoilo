@@ -1,9 +1,12 @@
 import React from "react";
+import "../Styles/footer.css";
 
 const Footer=()=>{
     return(
         <>
-        <p>Hello</p>
+        <div className="footer">
+        <p>&#169; 2022 Siddharth Rai</p>
+        </div>
         </>
     )
 }

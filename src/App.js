@@ -1,8 +1,6 @@
-// import Header from "./components/header";
 import React from "react";
 import { Route,Routes ,BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./components/navbar";
-// import Home from "./Pages/home"
 import Projects from "./Pages/projects"
 import MyWork from "./Pages/mywork"
 import Newhome from "./Pages/newhome";

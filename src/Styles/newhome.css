@@ -64,6 +64,9 @@ margin: -50px auto 10px;
     .home-container {
         flex-direction: column;
     }
+    .home-container  .heading{
+        font-size: 3rem;
+    }
     .home-container .myimg img{
         min-width: 250px;
     }
@@ -76,7 +79,7 @@ margin: -50px auto 10px;
     }
     .home-container .def{
         padding-bottom: 40px;
-
+        font-size: 1.5rem;
     }
     br{
         display: none;
