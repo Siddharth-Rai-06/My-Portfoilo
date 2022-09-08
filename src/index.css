@@ -14,8 +14,10 @@ code {
 *{
   margin: 0;
   padding:0;
+  /* width: 100%; */
 }
 body{
   /* background: linear-gradient(90deg, #ffffff 50%, #850E35 50%) */
   background-color: #BFD8D2;
+  width: 100%;
 }

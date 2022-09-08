@@ -1,0 +1,32 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding-top:40px;
+}
+.home-container .cont-1{
+    flex:50%;
+}
+.home-container .myimg{
+    flex:50%;
+    text-align: center;
+}
+.home-container .myimg img{
+    width:100%;
+    /* height: auto; */
+    border-radius: 50%;
+}
+@media (max-width:600px){
+    .home-container {
+        flex-direction: column;
+    }
+    .home-container .myimg img{
+        min-width: 250px;
+    }
+    .home-container .cont-1{
+        padding-bottom:50px;
+        text-align: center;
+    }
+
+}

@@ -14,6 +14,7 @@ const Navbar = () => {
     return (
         <>
             <IconContext.Provider value={{ color: '#319DA0' }}>
+            <div className="nav-container">
                 <div className="navbar">
                     <Link to="#" className="menu-bars">
                         <FaIcons.FaBars onClick={showSideBar} />
@@ -42,6 +43,7 @@ const Navbar = () => {
                         })}
                     </ul>
                 </nav>
+                </div>
             </IconContext.Provider>
         </>
     )
