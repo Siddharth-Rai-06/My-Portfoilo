@@ -46,10 +46,6 @@ const Newhome=()=>{
              </div>
              <div className="part-2">
              <div className="intro-text-2">
-             {/* <p>Hey guys, I am Siddharth Rai. In my second year of college, I tried my hands on various things like Content Writing, Cloud Solutions,
-             Ethical Hacking, but none of them piqued my interest. It was at that time that I started with Web Development. In the beginning it felt like just another
-             field I tried perviously, but as soon as I dug deeper my mind and heart fell for it. I started with the basics and slowly made my way ahead into 
-             React.</p> */}
              <p>Apart from coding and developing websites I often listen to music, play online games, or sometimes I spend my time playing volleyball. I also like to watch
              movies and series, but more than that I love watching animes. Recently, I have also developed a habit of listening to podcast and often try to utilize my breaks 
              by watching a random video on a specific topic related to coding.</p>

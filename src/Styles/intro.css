@@ -16,8 +16,9 @@
     flex-direction: row;
     height: auto;
     background-color: rgba(12, 67, 59, 0.7);
-    border-radius: 4%;
+    border-radius: 2%;
     margin-bottom: 20px;
+    border-right:8px solid rgb(2, 48, 32);
 }
 .part-2{
     flex:100%;
@@ -25,8 +26,10 @@
     flex-direction: row;
     height: auto;
     background-color:rgba(12, 67, 59, 0.7);
-    border-radius: 4%;
+    border-radius: 2%;
     margin-top: 20px;
+    border-left:8px solid rgb(2, 48, 32);
+
 }
 .intro-img-1{
     flex:50%;
@@ -67,10 +70,15 @@
     .part-1{
         flex-direction: column;
         border-radius: 4%;
+        border-bottom:8px solid rgb(2, 48, 32);
+        border-right:hidden;
+
     }
     .part-2{
         flex-direction: column-reverse;
         border-radius: 4%;
+        border-bottom:8px solid rgb(2, 48, 32);
+        border-left:hidden;
     }
     .intro-text-1{
         text-align: center;
